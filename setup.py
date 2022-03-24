@@ -11,7 +11,7 @@ setup(
     description="Dummy package for test",
     long_description=parent_dir.joinpath("README.md").read_text(),
     long_description_content_type="text/markdown",
-    url="https://github.com/up42/up42-py",
+    url="https://github.com/andher1802/dummy_0532.git",
     license="MIT",
     packages=find_packages(exclude=("tests", "docs", "examples")),
     package_data={
