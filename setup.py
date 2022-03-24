@@ -4,11 +4,11 @@ from setuptools import setup, find_packages
 parent_dir = Path(__file__).resolve().parent
 
 setup(
-    name="up42-py",
+    name="dummy-0532",
     version=parent_dir.joinpath("up42/_version.txt").read_text(encoding="utf-8"),
     author="UP42",
-    author_email="support@up42.com",
-    description="Python SDK for UP42",
+    author_email="andres.hernandez-camacho@up42.com",
+    description="Dummy package for test",
     long_description=parent_dir.joinpath("README.md").read_text(),
     long_description_content_type="text/markdown",
     url="https://github.com/up42/up42-py",
