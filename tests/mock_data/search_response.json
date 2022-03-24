@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.09073241,
+              52.84032107
+            ],
+            [
+              13.10024674,
+              52.30400987
+            ],
+            [
+              14.02011748,
+              52.28681629
+            ],
+            [
+              14.02845192,
+              52.81942435
+            ],
+            [
+              13.09073241,
+              52.84032107
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c257b95f-edb1-492d-b62e-8df4c7de7570",
+        "acquisitionDate": "2015-09-15T22:22:26Z",
+        "constellation": "SPOT",
+        "collection": "SPOT",
+        "providerName": "oneatlas",
+        "blockNames": [
+          "oneatlas-spot-display",
+          "oneatlas-spot-fullscene",
+          "oneatlas-spot-aoiclipped"
+        ],
+        "cloudCoverage": 17.2,
+        "up42:usageType": [
+          "DATA"
+        ],
+        "providerProperties": {
+          "qualified": false,
+          "acquisitionDate": "2015-09-15T22:22:26.960Z",
+          "acquisitionStation": "FR1",
+          "sourceIdentifier": "DS_SPOT7_201509150940246_FR1_FR1_FR1_FR1_E014N53_01790",
+          "archivingCenter": "FR1",
+          "lastUpdateDate": "2020-04-30T17:51:17.037759346Z",
+          "processingDate": "2015-09-15T23:29:48.192Z",
+          "azimuthAngle": 179.99552535276743,
+          "workspaceTitle": "Public",
+          "blockNames": [
+            "oneatlas-spot-display",
+            "oneatlas-spot-fullscene",
+            "oneatlas-spot-aoiclipped"
+          ],
+          "platform": "SPOT7",
+          "productCategory": "image",
+          "spectralRange": "VISIBLE",
+          "activityId": "c0900168-2be0-4b9b-9581-e700892e85d7",
+          "processingLevel": "ALBUM",
+          "acquisitionIdentifier": "DS_SPOT7_201509150940246_FR1_FR1_FR1_FR1_E014N53_01790",
+          "productionStatus": "ARCHIVED",
+          "sensorType": "OPTICAL",
+          "processorName": "MMCAT",
+          "correlationId": "mmcat_1964e65b-242c-49ac-81fb-c5619892057e",
+          "workspaceName": "public",
+          "id": "c257b95f-edb1-492d-b62e-8df4c7de7570",
+          "publicationDate": "2020-04-30T17:51:17.037759346Z",
+          "productType": "mono",
+          "illuminationElevationAngle": 38.37104694582053,
+          "expirationDate": "2021-04-30T17:51:17.037763979Z",
+          "workspaceId": "0e33eb50-3404-48ad-b835-b0b4b72a5625",
+          "incidenceAngleAcrossTrack": 7.763051621739387,
+          "acquisitionAnonymousIdentifier": "410001",
+          "illuminationAzimuthAngle": 153.82574369552904,
+          "format": "image/jp2",
+          "incidenceAngleAlongTrack": 14.107743735441243,
+          "incidenceAngle": 15.75939596874331,
+          "processingCenter": "MOC",
+          "organisationName": "AIRBUS DS GEO",
+          "snowCover": 0
+        },
+        "sceneId": "DS_SPOT7_201509150940246_FR1_FR1_FR1_FR1_E014N53_01790",
+        "resolution": 1.5,
+        "deliveryTime": "HOURS",
+        "producer": "Airbus"
+      },
+      "type": "Feature"
+    }],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.up42.com/catalog/stac/search{?next}"
+    },
+    {
+      "rel": "next",
+      "href": "https://api.up42.com/catalog/stac/search?next=eyJjdXJzb3JzIjpbeyJwcm92aWRlck5hbWUiOiJvbmVhdGxhcyIsIm5leHRPZmZzZXQiOjR9LHsicHJvdmlkZXJOYW1lIjoic29ibG9vLWltYWdlIiwibmV4dE9mZnNldCI6MH0seyJwcm92aWRlck5hbWUiOiJzb2Jsb28tcmFkYXIiLCJuZXh0T2Zmc2V0IjowfV19"
+    }
+  ]
+}
