@@ -15,8 +15,10 @@ setup(
     license="MIT",
     packages=find_packages(exclude=("tests", "docs", "examples")),
     package_data={
-        "": ["_version.txt", "data/aoi_berlin.geojson", "data/aoi_washington.geojson"]
+        "": ["_version.txt", "data/aoi_berlin.geojson",
+             "data/aoi_washington.geojson"],
     },
+    data_files = [('', ['requirements.txt', 'up42/._version.txt'])],
     include_package_data=True,
     zip_safe=False,
     install_requires=parent_dir.joinpath("requirements.txt").read_text().splitlines(),
@@ -27,5 +29,5 @@ setup(
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
     ],
-    python_requires=">=3.7, <=3.10",
+    python_requires=">=3.7, <=3.11",
 )
